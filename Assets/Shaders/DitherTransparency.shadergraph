@@ -49,7 +49,11 @@
             "m_Id": "59763672d2d04bc0b7dddaddf32f6b84"
         }
     ],
-    "m_GroupDatas": [],
+    "m_GroupDatas": [
+        {
+            "m_Id": "6f528c672c0f4cb5b7a93880d55a1ccf"
+        }
+    ],
     "m_StickyNoteDatas": [],
     "m_Edges": [
         {
@@ -228,7 +232,7 @@
     },
     "m_Name": "Base Texture",
     "m_DefaultReferenceName": "Texture2D_040685667c3b4b26b1d23fbdb2e72a56",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_BaseTexture",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
@@ -459,16 +463,16 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "417a590eaf9d4d2099901b8e2d315f77",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "6f528c672c0f4cb5b7a93880d55a1ccf"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -965.0,
-            "y": -103.0,
-            "width": 152.0,
+            "x": -1071.0,
+            "y": -146.00001525878907,
+            "width": 152.00001525878907,
             "height": 34.0
         }
     },
@@ -643,6 +647,17 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "6f528c672c0f4cb5b7a93880d55a1ccf",
+    "m_Title": "Base Color + Texture",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "705e74707ff149e7bdece223d5c93e12",
     "m_Group": {
@@ -791,15 +806,15 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "9c5cbfecb8574e27bf4ba7b15b1686cb",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "6f528c672c0f4cb5b7a93880d55a1ccf"
     },
     "m_Name": "Property",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -700.0,
-            "y": 358.0,
+            "x": -806.0,
+            "y": 315.0,
             "width": 135.0,
             "height": 34.0
         }
@@ -908,15 +923,15 @@
     "m_Type": "UnityEditor.ShaderGraph.SampleTexture2DNode",
     "m_ObjectId": "aec6d57343a04c7793ae6cffce9e0efc",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "6f528c672c0f4cb5b7a93880d55a1ccf"
     },
     "m_Name": "Sample Texture 2D",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -773.0,
-            "y": -103.0,
+            "x": -879.0000610351563,
+            "y": -146.00001525878907,
             "width": 208.0,
             "height": 437.0
         }
@@ -1174,15 +1189,15 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "db1a9ac8780748c6916b66a2745ee38c",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "6f528c672c0f4cb5b7a93880d55a1ccf"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -478.0,
-            "y": 0.0,
+            "x": -584.0,
+            "y": -43.000022888183597,
             "width": 208.0,
             "height": 302.0
         }
@@ -1216,17 +1231,17 @@
     },
     "m_Name": "Base Color",
     "m_DefaultReferenceName": "Color_de2c43e2c0154132aebdfe0305390f05",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_BaseColor",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.0,
-        "g": 0.0,
-        "b": 0.0,
-        "a": 0.0
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
     },
     "m_ColorMode": 0
 }
